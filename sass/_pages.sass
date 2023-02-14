@@ -1,0 +1,740 @@
+.contacts
+    background: #F2F2F2
+    min-height: 100vh
+    position: relative
+    &__img
+        width: 50%
+        height: 100%
+        position: absolute
+        top: 0
+        right: 0
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__wrap
+        width: 50%
+        padding: 160px 0
+        padding-right: 84px
+    &__title
+        margin: 0
+        margin-bottom: 50px
+        font-weight: 700
+        font-size: 50px
+        line-height: 60px
+        letter-spacing: 0.025em
+        color: #000000
+    &__block
+        border-top: 2px solid #ECE1DE
+        padding: 44px 0
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        a
+            font-size: 20px
+            line-height: 121.5%
+            letter-spacing: -0.02em
+            color: #000000
+            text-decoration: none
+            &:hover
+                color: #E73512
+    &__line
+        span
+            font-size: 20px
+            line-height: 121.5%
+            letter-spacing: -0.02em
+            color: #000000
+    &__work
+        padding-top: 27px
+        font-weight: 700
+        font-size: 18px
+        line-height: 121.5%
+        letter-spacing: 0.005em
+        color: #808080
+.docs
+    &__top
+        padding-top: 345px
+        padding-bottom: 55px
+        margin-top: -1px
+        h1
+            margin: 0
+            font-size: 50px
+            line-height: 98.5%
+            letter-spacing: 0.02em
+            color: #FFFFFF
+    &__main
+        padding: 75px 0
+    &__wrap
+        border-top: 2px solid #ECE1DE
+    &__line
+        border-bottom: 2px solid #ECE1DE
+        padding: 28px 0
+        padding-bottom: 15px
+        display: flex
+    &__subtitle
+        width: 50%
+        font-weight: 700
+        font-size: 28px
+        line-height: 125%
+        letter-spacing: -0.035em
+        color: #000000
+    &__docs
+        width: 50%
+        a
+            display: flex
+            align-items: flex-start
+            grid-gap: 20px
+            font-size: 20px
+            line-height: 116.5%
+            letter-spacing: -0.02em
+            margin-bottom: 23px
+            color: #000000
+            text-decoration: none
+            svg
+                min-width: 18px
+                margin-top: 2px
+            path
+                transition: all 0.3s
+            &:hover
+                color: #D44C22
+                path
+                    fill: #D44C22
+.thx
+    padding: 30px 0
+    &__subtitle
+        margin: 0
+        font-size: 30px
+        line-height: 125%
+        letter-spacing: -0.035em
+        color: #000000
+        margin-bottom: 30px
+    &__wrap
+        border-top: 2px solid #ECE1DE
+        position: relative
+        display: grid
+        grid-template-columns: repeat(3, 310px)
+        grid-gap: 0 125px
+        &::after
+            content: ""
+            display: block
+            height: 2px
+            width: 100%
+            background: #ECE1DE
+            position: absolute
+            bottom: 0
+            left: 0
+    &__block
+        height: 70px
+        width: 310px
+        display: flex
+        align-items: center
+        border-bottom: 2px solid #ECE1DE
+        font-size: 16px
+        letter-spacing: -0.015em
+    &__all
+        display: none
+    &-top
+        background: #F2F2F2
+        padding-top: 156px
+        padding-bottom: 114px
+        &__title
+            margin: 0
+            margin-bottom: 58px
+            font-size: 50px
+            line-height: 125%
+            text-align: center
+            letter-spacing: 0.02em
+            color: #000000
+        &__text
+            margin: 0
+            font-size: 20px
+            line-height: 121.5%
+            text-align: center
+            letter-spacing: -0.02em
+    &-bot
+        padding-bottom: 135px
+        padding-top: 40px
+        &__wrap
+            display: flex
+            justify-content: space-between
+            align-items: center
+            grid-gap: 20px
+.team
+    padding-top: 124px
+    padding-bottom: 88px
+    &__nav
+        display: none
+    &__title
+        font-weight: 700
+        font-size: 50px
+        line-height: 125%
+        letter-spacing: 0.02em
+        color: #000000
+        margin: 0
+        margin-bottom: 40px
+        padding-bottom: 65px
+        border-bottom: 2px solid #ECE1DE
+    &__line
+        display: flex
+        justify-content: space-between
+    &__left
+        width: 50%
+        padding-right: 40px
+    &__wrap
+        width: 50%
+        display: flex
+        justify-content: space-between
+        grid-gap: 48px 40px
+        padding-top: 8px
+        flex-wrap: wrap
+    &__subtitle
+        margin: 0
+        margin-bottom: 36px
+        font-size: 30px
+        line-height: 125%
+        letter-spacing: -0.035em
+    &__text
+        margin: 0
+        font-size: 20px
+        line-height: 121.5%
+        letter-spacing: -0.02em
+        max-width: 500px
+    &__block
+        width: 275px
+    &__img
+        width: 100%
+        height: 275px
+        margin-bottom: 26px
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__name
+        font-weight: 700
+        font-size: 20px
+        line-height: 121.5%
+        letter-spacing: 0.03em
+        margin-bottom: 4px
+    &__info
+        font-size: 17px
+        line-height: 121.5%
+        letter-spacing: -0.01em
+        color: #808080
+    &-sovet
+        background: #F2F2F2
+        padding-top: 40px
+        padding-bottom: 36px
+    &__isp
+        padding-top: 85px
+        padding-bottom: 75px
+.about
+    &-top
+        padding-top: 345px
+        padding-bottom: 55px
+        margin-top: -1px
+        h1
+            margin: 0
+            font-size: 50px
+            line-height: 98.5%
+            letter-spacing: 0.02em
+            color: #FFFFFF
+    &-main
+        padding-top: 56px
+        padding-bottom: 56px
+        border-bottom: 2px solid #ECE1DE
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &__img
+            width: 480px
+            max-width: 48%
+            height: 320px
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+        &__text
+            width: 48%
+            p
+                margin: 0
+                margin-bottom: 25px
+                font-size: 20px
+                line-height: 121.5%
+                letter-spacing: -0.02em
+                color: #000000
+    &-history
+        padding-top: 38px
+        padding-bottom: 58px
+        border-bottom: 3px solid #000000
+        &__title
+            margin: 0
+            margin-bottom: 32px
+            font-size: 28px
+            line-height: 121.5%
+        &__wrap
+            display: flex
+            justify-content: space-between
+        &__col
+            width: 48%
+            p
+                font-size: 20px
+                line-height: 121.5%
+                letter-spacing: -0.02em
+                margin-top: 0
+                margin-bottom: 24px
+                color: #000000
+    &-meh
+        padding-top: 33px
+        padding-bottom: 60px
+        border-bottom: 2px solid #ECE1DE
+        &__title
+            margin: 0
+            margin-bottom: 74px
+            padding-bottom: 62px
+            border-bottom: 2px solid #ECE1DE
+            font-size: 28px
+            line-height: 121.5%
+        &__text
+            display: flex
+            justify-content: space-between
+            margin-bottom: 45px
+        &__col
+            width: 48%
+            p
+                font-size: 20px
+                line-height: 121.5%
+                letter-spacing: -0.02em
+                margin-bottom: 24px
+                color: #000000
+        &__wrap
+            display: flex
+            justify-content: space-between
+        &__block
+            width: 175px
+            position: relative
+            &::after
+                content: ""
+                display: block
+                position: absolute
+                top: 56px
+                width: 26px
+                height: 16px
+                margin-top: -8px
+                left: 100%
+                background: url('../img/about-arrow.svg') center no-repeat
+            &:last-child::after
+                display: none
+        &__img
+            background: #ECE1DE
+            width: 112px
+            height: 112px
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 0 auto
+            margin-bottom: 16px
+        &__name
+            font-weight: 700
+            font-size: 20px
+            line-height: 121.5%
+            text-align: center
+            letter-spacing: -0.02em
+    &-qa
+        padding-top: 94px
+        padding-bottom: 89px
+        display: flex
+        justify-content: space-between
+        border-bottom: 3px solid #000000
+        &__col
+            width: 48%
+            border-top: 3px solid #000000
+            border-bottom: 2px solid #ECE1DE
+            padding-bottom: 42px
+            padding-top: 24px
+        &__title
+            margin-bottom: 55px
+            font-weight: 700
+            font-size: 28px
+            line-height: 121.5%
+        &__wrap
+            display: flex
+            align-items: center
+            grid-gap: 93px
+            margin-bottom: 24px
+        &__block
+            background: #ECE1DE
+            width: 112px
+            height: 112px
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+            position: relative
+            &::after
+                content: ""
+                display: block
+                position: absolute
+                top: 56px
+                width: 26px
+                height: 16px
+                margin-top: -8px
+                left: calc(100% + 35px)
+                background: url('../img/about-arrow.svg') center no-repeat
+            &:last-child::after
+                display: none
+        &__text
+            margin: 0
+            font-size: 20px
+            line-height: 121.5%
+            letter-spacing: -0.02em
+    &-bec
+        padding-top: 35px
+        padding-bottom: 52px
+        border-bottom: 2px solid #ECE1DE
+        margin-bottom: 55px
+        &__title
+            margin: 0
+            margin-bottom: 60px
+            padding-bottom: 56px
+            font-size: 28px
+            line-height: 125%
+            letter-spacing: 0.02em
+            border-bottom: 2px solid #ECE1DE
+        &__wrap
+            display: grid
+            grid-template-columns: repeat(3,1fr)
+            grid-gap: 37px 0
+            margin-bottom: 65px
+        &__block
+            display: flex
+            align-items: center
+            grid-gap: 26px
+            padding-right: 20px
+        &__img
+            background: #ECE1DE
+            width: 112px
+            min-width: 112px
+            height: 112px
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+        &__name
+            font-weight: 700
+            font-size: 20px
+            line-height: 115.5%
+            letter-spacing: -0.02em
+        &__link
+            background: #D44C22
+            border-radius: 11px
+            width: 278px
+            height: 64px
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 20px 22px
+            font-weight: 700
+            font-size: 18px
+            line-height: 115.5%
+            letter-spacing: -0.02em
+            color: #FFFFFF
+            text-decoration: none
+            &:hover
+                opacity: 0.8
+@media(max-width: 1199px)
+    .about
+        &-meh__block::after
+            margin-left: -13px
+    .thx
+        &__wrap
+            grid-gap: 0 20px
+    .team
+        &__wrap
+            grid-gap: 40px 0
+        &__block
+            width: 230px
+        &__img
+            height: 230px
+@media(max-width: 991px)
+    .about
+        &-bec
+            &__wrap
+                grid-template-columns: repeat(2, 1fr)
+        &-meh
+            &__wrap
+                display: block
+            &__block
+                margin: 0 auto
+                margin-bottom: 50px
+                max-width: 290px
+                width: 100%
+                &::after
+                    transform: rotate(90deg)
+                    left: 50%
+                    top: 110%
+    .team
+        &__line
+            display: block
+        &__left
+            width: 100%
+            margin-bottom: 40px
+        &__wrap
+            width: 100%
+            max-width: 590px
+        &__block
+            width: 275px
+        &__img
+            height: 275px
+    .thx
+        &__wrap
+            grid-template-columns: repeat(2, 310px)
+            grid-gap: 0 120px
+        &-bot
+            &__block
+                img
+                    max-width: 100%
+    .contacts
+        &__block
+            display: block
+        &__work
+            padding-top: 10px
+            padding-bottom: 30px
+@media(max-width: 767px)
+    .about
+        &-top
+            padding-top: 160px
+            padding-bottom: 30px
+            h1
+                font-size: 25px
+                line-height: 98.5%
+                letter-spacing: 0.02em
+        &-main
+            padding: 40px 0
+            display: block
+            &__text
+                width: 100%
+                p
+                    font-size: 16px
+                    line-height: 125%
+                    margin-bottom: 20px
+            &__img
+                width: 100%
+                max-width: 100%
+                height: 220px
+        &-history
+            padding: 30px 0
+            padding-bottom: 10px
+            &__title
+                font-size: 20px
+                line-height: 125%
+                margin-bottom: 24px
+            &__wrap
+                display: block
+            &__col
+                width: 100%
+                p
+                    font-size: 16px
+                    line-height: 125%
+        &-meh
+            padding-top: 30px
+            padding-bottom: 1px
+            &__title
+                padding-bottom: 26px
+                margin-bottom: 28px
+                font-size: 20px
+                line-height: 125%
+            &__text
+                display: block
+            &__col
+                width: 100%
+                p
+                    font-size: 16px
+                    line-height: 125%
+                    margin-bottom: 25px
+            &__img
+                width: 90px
+                height: 90px
+                margin-bottom: 13px
+            &__name
+                font-size: 16px
+                line-height: 121.5%
+            &__block
+                &::after
+                    top: 115%
+        &-qa
+            padding-top: 35px
+            padding-bottom: 50px
+            display: block
+            &__col
+                width: 100%
+                &:last-child
+                    border-top: 2px solid #ECE1DE
+            &__title
+                margin-bottom: 45px
+                font-size: 20px
+                line-height: 115%
+            &__block
+                width: 90px
+                height: 90px
+                &::after
+                    top: 45px
+            &__text
+                font-size: 16px
+                line-height: 125%
+        &-bec
+            padding-bottom: 35px
+            margin-bottom: 35px
+            &__title
+                font-size: 20px
+                line-height: 115%
+                padding-bottom: 38px
+                margin-bottom: 49px
+            &__wrap
+                grid-template-columns: repeat(1, 1fr)
+                margin-bottom: 50px
+                grid-gap: 20px
+            &__img
+                width: 90px
+                height: 90px
+                min-width: 90px
+            &__block
+                padding-right: 0
+                grid-gap: 50px
+            &__name
+                font-size: 16px
+                line-height: 115.5%
+            &__link
+                width: 100%
+    .team
+        padding-top: 88px
+        padding-bottom: 65px
+        &__nav
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding-top: 28px
+        &__prev, &__next
+            cursor: pointer
+        &__title
+            padding-bottom: 55px
+            margin-bottom: 30px
+            font-size: 32px
+            line-height: 125%
+            letter-spacing: 0.02em
+        &__left
+            padding-right: 0
+            margin-bottom: 40px
+        &__subtitle
+            margin-bottom: 18px
+            font-size: 24px
+            line-height: 125%
+        &__text
+            font-size: 16px
+            line-height: 125%
+        &__block
+            width: 100%
+        &__img
+            height: 330px
+    .thx
+        &__wrap
+            display: block
+        &__block
+            width: 100%
+            height: auto
+            padding: 15px 0
+            display: none
+            &:nth-child(1),
+            &:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5),&:nth-child(6)
+                display: flex
+        &__all
+            display: flex
+            align-items: center
+            grid-gap: 22px
+            padding-top: 35px
+            font-weight: 700
+            font-size: 16px
+            line-height: 121.5%
+            letter-spacing: 0.03em
+            color: #D44C22
+            text-decoration: none
+    .contacts
+        min-height: 0
+        &__img
+            position: static
+            width: 100%
+            height: 345px
+            display: flex
+        &__wrap
+            width: 100%
+            padding-top: 112px
+            padding-bottom: 36px
+            padding-right: 0
+        &__title
+            font-size: 32px
+            line-height: 125%
+            margin-bottom: 33px
+        &__block
+            padding: 18px 0
+    .docs
+        &__top
+            padding-top: 225px
+            padding-bottom: 25px
+            h1
+                font-size: 25px
+                line-height: 98.5%
+        &__main
+            padding-top: 40px
+            padding-bottom: 55px
+        &__line
+            padding-top: 24px
+            padding-bottom: 18px
+            display: block
+        &__subtitle
+            font-size: 20px
+            line-height: 125%
+            margin-bottom: 25px
+            width: 100%
+        &__docs
+            width: 100%
+            a
+                margin-bottom: 14px
+                font-size: 16px
+                line-height: 133.5%
+                svg
+                    min-width: 14px
+                    width: 14px
+                    margin-top: 0
+@media(max-width: 575px)
+    .thx
+        &-top
+            padding-top: 104px
+            padding-bottom: 42px
+            &__title
+                font-size: 32px
+                line-height: 125%
+                text-align: left
+                margin-bottom: 52px
+            &__text
+                text-align: left
+                font-size: 16px
+                line-height: 125%
+        &__subtitle
+            font-size: 24px
+            padding-right: 25px
+            margin-bottom: 24px
+        &__wrap
+            border-top: 1px solid #ECE1DE
+            margin: 0 -15px
+            padding: 0 15px
+            &::after
+                display: none
+        &__block
+            border-bottom: 1px solid #ECE1DE
+        &-bot
+            padding-bottom: 38px
+            &__block
+                width: 152px
+                margin-bottom: 20px
+            &__wrap
+                display: block
