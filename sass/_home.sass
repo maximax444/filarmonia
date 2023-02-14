@@ -4,7 +4,7 @@
         top: 0
         left: 0
         width: 100vw
-        height: 100vh
+        height: 85vh
         z-index: -1
         video
             position: absolute
@@ -35,6 +35,7 @@
             height: 100%
             z-index: 10
             background-color: #fff
+            pointer-events: none
             opacity: 0
         &__title
             margin: 0
@@ -86,7 +87,7 @@
             letter-spacing: 0.02em
     &-about
         background-color: #fff
-        margin-top: 100vh
+        margin-top: 85vh
         padding-top: 65px
         &__text
             p
@@ -229,6 +230,9 @@
                 display: none
                 &:nth-child(1), &:nth-child(2)
                     display: block
+            &.active
+                p
+                    display: block
         &__all
             font-weight: 700
             font-size: 20px
@@ -241,6 +245,15 @@
             text-decoration: none
             img
                 margin-top: -3px
+            .close
+                display: none
+            &.active
+                .close
+                    display: block
+                .full
+                    display: none
+                path:first-child
+                    display: none
             &:hover
                 opacity: 0.8
     &-donate

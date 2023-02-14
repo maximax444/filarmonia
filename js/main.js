@@ -10,8 +10,8 @@ $('.thx__all').on('click', function (e) {
 });
 $('.home-hello__all').on('click', function (e) {
     e.preventDefault();
-    $('.home-hello__cont p').css('display', 'block');
-    $(this).hide();
+    $('.home-hello__cont').toggleClass('active');
+    $(this).toggleClass('active');
 });
 
 $(window).scroll(function () {

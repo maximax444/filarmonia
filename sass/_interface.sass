@@ -158,6 +158,7 @@
             background: #000000
             position: absolute
             display: block
+            transition: background 0.3s
             &::before
                 content: ""
                 display: block
@@ -178,6 +179,13 @@
                 background: #000
                 position: absolute
                 transition: all 0.3s
+        &:hover
+            span
+                background: #D44C22
+                &::before
+                    background: #D44C22
+                &::after
+                    background: #D44C22
         &.active
             span
                 height: 0
@@ -192,8 +200,8 @@
     &-drop
         position: absolute
         top: 100%
-        left: 0
-        width: 100%
+        left: -1px
+        width: calc(100% + 2px)
         display: none
         &__line
             display: flex
