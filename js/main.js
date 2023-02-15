@@ -49,3 +49,13 @@ $('.team__next').on('click', function (e) {
     e.preventDefault();
     $(this).closest('section').find('.team__wrap').slick('slickNext');
 });
+$('.to1').on('click', function (e) {
+    e.preventDefault();
+    $('.home-donate__block').eq(0).addClass('active');
+    $('.home-donate__block').eq(1).removeClass('active');
+});
+$('.to2').on('click', function (e) {
+    e.preventDefault();
+    $('.home-donate__block').eq(1).addClass('active');
+    $('.home-donate__block').eq(0).removeClass('active');
+});
